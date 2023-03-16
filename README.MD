@@ -12,7 +12,7 @@
   3. webpack.config 구성
   4. 필요한 모듈 다운
     package.json
-    ```jsx
+    ```
       "devDependencies": {
         "@babel/core": "^7.18.6",
         "@babel/plugin-proposal-class-properties": "^7.18.6",
