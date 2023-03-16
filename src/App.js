@@ -1,6 +1,6 @@
 //  rce로 기본 구조 생성
 import React from "react";
-import { observer } from "mobx-react-lite";
+import { observer } from "mobx-react";
 
 @observer
 class App extends React.Component {
