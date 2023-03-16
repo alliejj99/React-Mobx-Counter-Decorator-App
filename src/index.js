@@ -1,11 +1,9 @@
 import React from "react";
-import { render } from "react-dom";
+import ReactDOM from "react-dom/client";
+import CounterStore from "./CounterStore";
 import App from "./App";
 
-render(
-  <div>
-    <App />
-  </div>,
+const store = new CounterStore();
 
-  document.getElementById("root")
-);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App counter={store} />);
