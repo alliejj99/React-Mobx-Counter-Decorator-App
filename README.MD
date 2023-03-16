@@ -12,7 +12,7 @@
   3. webpack.config 구성
   4. 필요한 모듈 다운  
     package.json  
-    `
+    <pre><code>
       "devDependencies": {
         "@babel/core": "^7.18.6",
         "@babel/plugin-proposal-class-properties": "^7.18.6",
@@ -33,7 +33,7 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
       },
-    `  
+    </pre></code>
     5. index.html 가상돔 사용할 페이지 구성  
     6. index.js 생성 후 싱글페이지 구성  
     7. 렌더링할 페이지 기본 구성 App.js 후 index.js에서 호출  
