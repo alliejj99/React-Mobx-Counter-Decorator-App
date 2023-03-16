@@ -11,7 +11,7 @@
     [Babel7](https://ko.mobx.js.org/enabling-decorators.html) 
   3. webpack.config 구성
   4. 필요한 모듈 다운  
-    package.json  
+    package.json
     <pre><code>
       "devDependencies": {
         "@babel/core": "^7.18.6",
