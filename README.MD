@@ -12,7 +12,7 @@
   3. webpack.config 구성
   4. 필요한 모듈 다운
     package.json
-    ```
+    ```bash
       "devDependencies": {
         "@babel/core": "^7.18.6",
         "@babel/plugin-proposal-class-properties": "^7.18.6",
@@ -38,7 +38,7 @@
     6. index.js 생성 후 싱글페이지 구성
     7. 렌더링할 페이지 기본 구성 App.js 후 index.js에서 호출
     8. CounterStore.js 만들어서 mobX-Decorator 문법에 따라 커스텀 스토어 생성
-    9. index.js에서 CounterStore.js를 store로 App.js에 넘겨주기
+    9. index.js에서 CounterStore.js를 store로 App.js에 넘겨주기  
       ```jsx
         import React from "react";
         import ReactDOM from "react-dom/client";
