@@ -33,7 +33,7 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
       },
-    </pre></code>
+    </code></pre>
     5. index.html 가상돔 사용할 페이지 구성  
     6. index.js 생성 후 싱글페이지 구성  
     7. 렌더링할 페이지 기본 구성 App.js 후 index.js에서 호출  
